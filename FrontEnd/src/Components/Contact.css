@@ -1,0 +1,217 @@
+.contentc{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://assets.wego.com/image/upload/c_fill,fl_lossy,q_auto:best,f_auto,w_2560/v1597920829/web/hero_images/in_1.jpg");
+    background-size: 100% 100%;
+    opacity: 0.65;
+    background-color: antiquewhite;
+}
+.boxc{
+    height: 20%;
+    width: 30%;
+    transform: translateY(320px);
+    background-color: azure;
+    margin-left: 5%;
+    background-color: rgb(0, 0, 0 ,0.5);
+}
+.centrec{
+    text-align: center;
+    padding-top: 10px;
+    font-size:x-large;
+    font-weight: bolder;
+    padding-bottom: 3px;
+    color: rgb(70, 221, 238);
+}
+.get{
+    margin-left: 20%;
+    margin-top: 0%;
+    height: 50%;
+    width: 60%;
+    background-color: rgba(213, 213, 213, 0.2);
+    border-radius: 10px;
+}
+#feed{
+    text-align: center;
+    padding-top: 3%;
+    /* overflow-x: auto; */
+    font-size: large;
+    /* color: rgb(223, 220, 220); */
+    color: rgb(70, 221, 238);
+}
+.emailc{
+  text-align: center;
+    padding-top: 3%;
+    color: white;
+}
+.mailc{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.mobilec{
+  text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+.addc{
+    padding-left: 16%;
+    padding-top: 3%;
+    color: white;
+}
+.linec{
+    padding-top: 5%;
+    border-bottom: 1px solid white;
+}
+.emf{
+    margin-left: 15%;
+    padding-top: 3%;
+    /* padding-left: 25%; */
+    /* border-radius: 5px; */
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 218px;
+    border-bottom: 2px solid black;
+}
+.cnf{
+    margin-left: 15%;
+    padding-top: 3%;
+    margin-top: 10px;
+    /* padding-left: 25%; */
+    /* border-radius: 5px; */
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 218px;
+    border-bottom: 2px solid black;
+}
+.nf{
+    margin-left: 15%;
+    padding-top: 3%;
+    /* padding-left: 25%; */
+    /* border-radius: 5px; */
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    width: 218px;
+    border-bottom: 2px solid black;
+}
+.df{
+    margin-left: 15%;
+    padding-top: -3%;
+    margin-top: 5px;
+    /* padding-left: 25%; */
+    /* border-radius: 5px; */
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 218px;
+    border-bottom: 2px solid black;
+}
+textarea{
+  background-color: rgb(0, 0, 0 ,0.5);
+}
+.contact-form input{
+  background-color: rgb(0, 0, 0 ,0.5);
+}
+textarea::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+#button1{
+    margin-top: 1%;
+    margin-left: 30%;
+    width: 30%;
+    height: 28px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: large;
+}
+#feel{
+    text-align: center;
+    color: white;
+}
+
+/* Contact.css */
+.contact-container {
+    transform: translatey(-100px);
+    padding-left: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 20px;
+    margin-left: 40%;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    background-color: rgb(0, 0, 0 ,0.5);
+    /* background-color: #fff; */
+    /* background-image: url("https://assets.wego.com/image/upload/c_fill,fl_lossy,q_auto:best,f_auto,w_2560/v1597920829/web/hero_images/in_1.jpg"); */
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(70, 221, 238);
+  }
+  
+  .contact-form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    /* border: 1px solid #dea6a6; */
+    border-radius: 4px;
+    font-size: 16px
+  }
+  .contact-form input::placeholder{
+    color: rgb(102, 99, 99);
+  }
+  #feel{
+    margin-top: 5px;
+  }
+  .contact-form textarea {
+    resize: vertical;
+  }
+  .contact-form textarea::placeholder{
+    color: rgb(102, 99, 99);
+  }
+  
+  .contact-form button {
+    width: 90%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  .homec{
+    transform: translateY(-670px);
+    padding-left: 78%;
+}
+  

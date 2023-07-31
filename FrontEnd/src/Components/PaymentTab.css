@@ -1,0 +1,283 @@
+/* .payment-content{
+    background-color: rgb(245, 250, 255);
+}
+.pays{
+    margin-top: 20px;
+    margin-left: 322px;
+    width: 880px;
+    height: 550px;
+    border: 1px solid black;
+    background-color: rgb(245, 250, 255);
+}
+.pays h3{
+    text-align: center;
+}
+.ord{
+    margin-left: 40px;
+    width: 800px;
+    height: 50px;
+    border: 2px solid black;
+}
+.ord p{
+    margin-left: 10px;
+}
+.paym{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+}
+.payop{
+    margin-top: 33px;
+    margin-left: 400px;
+    transform: translateY(-270px);
+    width: 410px;
+    height: 300px;
+    border: 2px solid black;
+}
+#payb{
+    text-align: left;
+    margin-left: 10px;
+}
+.paym p{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 15px;
+}
+.rad{
+    transform: translateX(70px);
+    padding-left: 70px;
+    transform: translateY(-33px);
+    overflow-y: auto;
+}
+.card{
+    height: 50px;
+    transform: translateY(-5px);
+}
+.card input{
+    height: 20px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(240, 254, 254);
+}
+.card input::placeholder{
+    color: rgb(153, 150, 150);
+    text-align: center;
+}
+.cardNumber{
+    padding-right: 22px;
+}
+.cardNumberv{
+    padding-right: 63px;
+}
+.upi{
+    height: 20px;
+    margin-bottom: 20px;
+}
+.upi input{
+    height: 30px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(235, 255, 255);
+}
+.upiId{
+    padding-right: 20px;
+}
+.upi input::placeholder{
+    color: rgb(153, 150, 150);
+    text-align: center;
+}
+.cardbox{
+    padding-top: 20px;
+    height: 150px;
+    width: 350px;
+    margin-left: 7%;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.upibox{
+    transform: translateY(-150px);
+}
+.form-actions{
+    height: 50px;
+    width: 360px;
+    transform: translateX(23px);
+    border: 1px solid black;
+}
+.back{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    transform: translateX(-400px);
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    color: #fff;
+}
+.pro{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    transform: translateX(-280px);
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    color: #fff;
+}
+.can{
+    width: 100px;
+    height: 40px;
+    transform: translateX(100px);
+    margin-left: 120px;
+    transform: translateY(-46px);
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    color: #fff;
+}
+.can:hover {
+background-color: rgb(229, 131, 26);
+
+}
+.pro:hover 
+{
+background-color: rgb(229, 131, 26);
+}
+.back:hover{
+  background-color: rgb(229, 131, 26);
+} */
+
+
+.payment-content {
+  margin-top: 20px;
+  background-color: rgb(245, 250, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .PaymentTab {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .pays h3 {
+    color: #5d87b1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ord {
+    margin-bottom: 20px;
+  }
+  
+  .ord p {
+    color: #777777;
+    margin: 0;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  
+  .paym h3 {
+    color: #5d87b1;
+    margin-bottom: 20px;
+  }
+  
+  .paym p {
+    color: #333333;
+    margin: 8px;
+  }
+  
+  .rad {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .rad label {
+    cursor: pointer;
+    color: #333333;
+  }
+  
+  .cardbox,
+  .upibox {
+    margin-bottom: 15px;
+  }
+  
+  .cardNumber,
+  .upiId {
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  .card input,
+  .upi input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .form-actions .back {
+    background-color: #ccc;
+    color: #333333;
+  }
+  
+  .form-actions .pro {
+    /* background-color: #0066cc; */
+    background-color: orange;
+    color: #ffffff;
+  }
+  
+  .form-actions .can {
+    background-color: #ff6666;
+    color: #ffffff;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  
+  .booking-details {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .booking-details h3 {
+    color: #0066cc;
+    margin-bottom: 15px;
+  }
+  
+  .booking-details p {
+    color: #333333;
+    margin: 0;
+  }
+  #checkbox-container{
+    transform: translateY(-5px);
+  }

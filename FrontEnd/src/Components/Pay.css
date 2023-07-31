@@ -1,0 +1,60 @@
+.Payid{
+    height: 100vh;
+    width: 98.7vw;
+    /* background-color: rgb(255, 249, 241); */
+    background-color: rgb(233, 250, 251);
+}
+.black{
+    background-color: rgb(233, 250, 251);
+    /* background-color: rgb(252, 245, 236); */
+}
+.paym{
+    text-align: center;
+}
+.contain{
+    width: 25%;
+    height: 65%;
+    margin-left: 35%;
+    padding-left: 3%;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: rgba(14, 14, 14, 0.9) 0px 10px 20px, rgba(214, 235, 239, 0.6) 0px 6px 6px;
+    border-radius: 5px;
+}
+.pay{
+    width: 30%;
+    margin-left: 20%;
+    height: 40px;
+    background-color: rgb(46, 201, 240);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.check{
+    width: 30%;
+    margin-left: 5%;
+    height: 40px;
+    background-color: rgb(46, 201, 240);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.pay:hover , .check:hover{
+    background-color: rgb(0, 0, 0);
+}
+#get{
+    text-align: center;
+    background-color: rgb(170, 163, 163);
+    height: 20px;
+    border-radius: 5px;
+}
+#proceed{
+    text-align: center;
+    padding-top: 2%;
+}
+#red{
+    color: red;
+}

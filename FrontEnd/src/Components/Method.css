@@ -1,0 +1,101 @@
+.Payidm{
+    height: 120vh;
+    width: 98.7vw;
+    background-color: rgb(233, 250, 251);
+}
+#cen{
+    text-align: center;
+    padding-top: 5px;
+}
+.blackm{
+    background-color: black;
+}
+.methodbox{
+    transform: translateY(0%);
+    margin-left: 33%;
+    width: 35%;
+    height: 70%;
+    background-color: white;
+    /* border: 2px solid rgb(12, 12, 12 ); */
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 20px, rgba(0, 0, 0, 0.5) 0px 6px 6px;
+    border-radius: 5px;
+}
+.methodst{
+    background-color: rgb(107, 225, 255);
+    transform: translateY(10%);
+    margin-left: 10px;
+    width: 95%;
+    border-radius: 4px;
+    height: 20%;
+    border: 2px solid black;
+    box-shadow: rgba(69, 83, 89, 0.5) 0px 10px 20px, rgba(0, 0, 0, 0.6) 0px 6px 6px;
+    font-size: large;
+    font-weight: 300;
+    /* color: white; */
+}
+#ord{
+    transform: translateY(-10px);
+    padding-left: 10px;
+}
+#bookid{
+    transform: translateY(-22px);
+    padding-left: 10px;
+}
+#bid{
+    transform: translateY(-35px);
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 900;
+    /* color: white; */
+}
+#paynow{
+    transform: translateY(-9.7px);
+    cursor: pointer;
+    width: 100.9%;
+    height: 40px;
+    margin-left: -1px;
+    
+    background-color: rgb(46, 201, 240);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: large;
+}
+#paynow:hover{
+    color: white;
+    background-color: black;
+}
+.container{
+    transform: translateY(-10px);
+    margin-left: -1px;
+    width: 100%;
+    height: 320px;
+    border-radius: 4px 4px 0px 0px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px , rgba(0, 0, 0, 0.3) 0px 6px 6px;
+    text-align: center;
+}
+.slc{
+    transform: translateY(220px);
+}
+.log{
+    height: 100px;
+    width: 100%;
+    transform: translateY(230px);
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+#split{
+    width: 33.3%;
+    height: 90px;
+    /* background-color: aquamarine; */
+    border: 1px solid black;
+    text-align: center;
+}
+#split a{
+    text-decoration: none;
+    color: black;
+}
+#text{
+    transform: translateY(-19px);
+}

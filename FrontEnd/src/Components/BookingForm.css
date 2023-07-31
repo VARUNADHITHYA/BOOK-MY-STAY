@@ -1,0 +1,147 @@
+#bookhotel {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 600px;
+    height: 550px;
+    border-radius: 5px;
+    margin-left: -500px;
+  }
+  
+  .bookform{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .labelbook {
+    margin-bottom: 10px;
+  }
+  
+   .bookbutton{
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+   .bookbuttonn{
+    padding: 8px;
+    width: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+ 
+.bookbuttonn::placeholder{
+  color: rgb(142, 140, 140);
+}
+#fbox{
+  border: 2px solid rgb(176, 175, 175);
+  border-radius: 5px;
+}
+#fbox h4{
+  font-weight: lighter;
+  font-size: large;
+}
+#fbox .bookbutton , #fbox span{
+  color: rgb(142, 140, 140);
+}
+#nbox{
+  padding-top: 10px;
+  margin-top: 15px;
+  border: 2px solid rgb(176, 175, 175);
+  border-radius: 5px;
+}
+#pbox{
+  margin-top: -5px;
+  padding-left: 10px;
+  border: 2px solid rgb(176, 175, 175);
+  border-radius: 5px;
+}
+#pbox span{
+  color: rgb(88, 87, 87);
+}
+#dbox{
+  padding-top: 10px;
+  margin-top: 15px;
+  border: 2px solid rgb(176, 175, 175);
+  border-radius: 5px;
+}
+#dbox .roombutton{
+    padding: 8px;
+    width: 160px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border: none;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    outline: none;
+}
+.roombutton::placeholder , .emailbutton::placeholder{
+  color: rgb(142, 140, 140);
+}
+.emailbutton{
+  margin-top: 7px;
+}
+#dbox .emailbutton{
+  padding: 8px;
+  width: 500px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border: none;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    outline: none;
+}
+.okbutton{
+  margin-top: 55px;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  font-size: large;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.okbutton:hover{
+  background-color: rgb(229, 131, 26);
+}
+.cancel{
+  width: 200px;
+  height: 50px;
+  margin-left: 400px;
+  font-size: large;
+  transform: translateY(-50px);
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.cancel:hover{
+  background-color: rgb(229, 131, 26);
+}

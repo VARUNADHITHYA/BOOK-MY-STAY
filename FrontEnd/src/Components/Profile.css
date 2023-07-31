@@ -1,0 +1,10 @@
+.userimg{
+    display: flex;
+}
+.userimg img{
+    transform: translateY(10px);
+    height: 33px;
+    width: 33px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
